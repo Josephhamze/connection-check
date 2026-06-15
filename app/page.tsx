@@ -25,7 +25,7 @@ export default async function Home({ searchParams }: PageProps) {
   }
 
   const supabaseConnected = Boolean(process.env.SUPABASE_URL) && !databaseError;
-  const sourceUrl = process.env.NEXT_PUBLIC_GITHUB_URL ?? "https://github.com/Josephhamze";
+  const sourceUrl = process.env.NEXT_PUBLIC_GITHUB_URL ?? "https://github.com/Josephhamze/connection-check";
 
   return (
     <main>
